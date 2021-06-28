@@ -1,0 +1,113 @@
+/* ==============================================================
+                            Bootstrap 3 media Queries
+================================================================= */
+
+/* Large Devices (Desktop & Laptop) */
+@media (min-width: 1200px) and (max-width:1299px){
+
+    /* Navigation */
+    .site-nav-wrapper{
+        padding: 0 20px;
+    }
+
+}
+
+/* Medium Devices (Landscape Tablets & Medium Desktops) */
+@media (min-width:992px) and (max-width:1199px){
+  
+     /* Navigation */
+     .site-nav-wrapper{
+        padding: 0;
+    }
+
+    /* Generic */
+    .vertical-heading h2{
+        font-size: 28px;
+    }
+
+    /* Services 02 */
+    #services-tabs .tab-bg{
+        padding: 16px 30px;
+        min-height: 300px;
+    }
+
+    .service-tab p{
+        line-height: 20px;
+    }
+}
+
+/* Small Devices (Portralt Tablets & Small Desktops) */
+@media (min-width:768px) and (max-width:991px){
+   
+    /* Navigation */
+      .site-nav-wrapper{
+        padding: 0;
+    }
+
+    /* Home */
+    #home-heading h1{
+        font-size: 30px;
+    }
+
+    #home-text p{
+        font-size: 13px;
+    }
+
+    /* Generic */
+    .btn-general{
+        padding: 8px 36px 8px 36px;
+        font-size: 18px;
+    }
+
+    /* Generic */
+    .vertical-heading h2{
+        font-size: 30px;
+    }
+
+    /* Tech statement */
+    #tech-statement h2{
+        font-size: 26px;
+        line-height: 30px;
+    }
+
+    /* Services 02 */
+    .r-tabs-accordion-title{
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .r-tabs-accordion-title a{
+        font-family: 'Raleway', sans-serif;
+        font-size: 14px;
+        color: #212226;
+        text-transform: uppercase;
+        font-weight: 400;
+        padding: 0;
+        text-decoration: none;
+    }
+
+    .r-tabs-accordion-title.r-tabs-state-active a{
+        color: #FCA311;
+        font-weight: 700;
+        border-bottom: 3px solid #FCA311;
+        padding-bottom: 5px;
+        -webkit-transition: border-color 300ms linear;
+        transition: border-color 300ms linear;
+    }
+    
+    /* Pricing */
+    .pricing-table .price h2{
+        margin: 0 0 0 6px;
+        font-size: 36px;
+    }
+
+    /* Blog */
+    .blog-post .post-meta p{
+        line-height: 14px;
+    }
+}
+
+/* Extra Small Devices (Portralt Phones & Small Tablets) */
+@media (max-width:767px){
+   
+}

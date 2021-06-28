@@ -1,0 +1,172 @@
+:root {
+  --blue-1: #88bbf1;
+  --blue-2: rgb(211, 238, 255);
+  --blue-3: #007bff;
+
+  --orange-1: #ff0000;
+  --orange-2: #ff542e;
+  --orange-3: #dd3726;
+  --orange-4: #ef6c57;
+
+  --red: #f23a2e;
+  --pink: #e83e8c;
+
+  --purple: #7971ea;
+  --purple-1: #5e2ced;
+
+  --purple-pink-1: #f4364c;
+  --purple-pink-2: #e63348;
+  --purple-pink-3: #e2b9b9;
+  --purple-pink-4: #ef8692;
+  --purple-pink-5: rgb(255, 241, 241);
+
+  --gray-1: #f6f6f6;
+  --gray-2: rgb(153, 153, 153);
+  --gray-3: #8b8b8b;
+  --gray-4: #dbdbdb;
+  --gray-5: #b1a5a5;
+  --gray-6: #f1f0f1;
+  --gray-7: #f8f9fa;
+  --gray-8: #8b8b8b;
+  --gray-9: rgb(238, 238, 238);
+  --gray-10: #6c757d;
+
+  --white-1: white;
+  --white-2: #fff;
+
+  --black-1: #2c2c2c;
+  --black-2: hsla(0, 0%, 54.5%, 0.1);
+  --black-3: black;
+  --black-4:#212226;
+
+  --gold-1: #ffce3e;
+  --gold-2: rgb(253, 216, 54);
+  --gold-4: #FCA311;
+
+  --yellow-1: #f89d13;
+  --yellow-2: rgb(252, 248, 228);
+
+  --green-1: rgb(231, 248, 241);
+  --green-3: #1da493;
+  --green-4: #32dbc6;
+  --green-5: #8bc34a;
+
+  --indigo: #0d0cb5;
+
+  --teal: #32dbc6;
+  --cyan: #17a2b8;
+  --gray-dark: #343a40;
+  --primary: #32dbc6;
+  --secondary: #6c757d;
+  --success: #8bc34a;
+  --info: #17a2b8;
+  --warning: #f89d13;
+  --danger: #f23a2e;
+  --light: #f8f9fa;
+  --dark: #343a40;
+
+  --header-height: 140px;
+  --header_top__height: 45px;
+  --navbar: calc(var(--header-height) - var(--header_top));
+
+  --number-item: 10;
+  /* font */
+  --font-family-sans-serif: "Quicksand", -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas,
+    "Liberation Mono", "Courier New", monospace;
+}
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+.p-top-10 {
+  padding-top: 10px;
+}
+
+.p-right-10 {
+  padding-right: 10px;
+}
+
+.mg-buttom-0 {
+  margin-bottom: 0;
+}
+.mg-top-10 {
+  margin-top: 10px;
+}
+
+.mg-bottom-10 {
+  margin-bottom: 10px;
+}
+
+.mg-left-10 {
+  margin-left: 10px;
+}
+
+.mg-right-10 {
+  margin-right: 10px;
+}
+
+.pd-10 {
+  padding: 10px;
+}
+
+.mg-top-bottom-4 {
+  margin: 4px 0;
+}
+
+* {
+  box-sizing: inherit;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  /* Hack ~ 16px */
+  font-size: 62.5%; /* ~ 10px*/
+  line-height: 1.6rem;
+  /* sans-serif: chủng chứ không có chân */
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+/* ==============================================================
+                          Preloader
+  ================================================================= */
+
+/* ---------------Overlay flud screen----------------- */
+/* #preloader { 
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+  } 
+  
+  #status {
+    background-image: url(../img/);
+    background-repeat: no-repeat;
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-top: -35px;
+    margin-left: -35px;
+  } */
+/* ==============================================================
+                          End Preloader
+  ================================================================= */
